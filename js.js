@@ -1,13 +1,10 @@
-let h1Elem = document.getElementById('text-center')
 
-h1Elem.setAttribute('align','center')
-h1Elem.setAttribute('id','h1text')
+let textElem = document.getElementById("text-center")
 
-console.log(h1Elem)
+textElem.style.color = 'red';
+textElem.style.textAlign = 'center';
 
 
-// ulElem.setAttribute("align","center")
+let listElem = document.getElementsByClassName('items');
 
-// ulElem.setAttribute('class','ul-list')
-// console.log(ulElem.setAttribute('id','list-item'))
-
+console.log(listElem)
