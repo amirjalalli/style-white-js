@@ -7,4 +7,11 @@ textElem.style.textAlign = 'center';
 
 let listElem = document.getElementsByClassName('items');
 
-console.log(listElem)
+listElem[3].style.color = 'red'
+
+listElem[1].innerHTML = "در باره ما"
+
+let input = document.getElementById('input')
+
+console.log(input)
+input.value = 'tehran'
